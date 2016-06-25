@@ -1,0 +1,236 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Font -->
+    <style name="Font" />
+
+    <style name="Font.Regular">
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Font.Italic">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Font.Bold">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Font.Bold.Italic" parent="Font.Bold">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="Font.Light">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Font.Light.Italic" parent="Font.Light">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Font.Thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+    <style name="Font.Thin.Italic" parent="Font.Thin">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Font.Condensed">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="Font.Condensed.Italic" parent="Font.Condensed">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Font.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Font.Medium.Italic" parent="Font.Medium">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Font.Black">
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="Font.Black.Italic" parent="Font.Black">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <!-- **** -->
+
+
+    <!-- Typography -->
+    <style name="Typography" />
+
+    <style name="Typography.Display_4" parent="Font.Regular">
+        <item name="android:textSize">@dimen/typography_display_4</item>
+    </style>
+
+    <style name="Typography.Display_3" parent="Font.Regular">
+        <item name="android:textSize">@dimen/typography_display_3</item>
+    </style>
+
+    <style name="Typography.Display_2" parent="Font.Regular">
+        <item name="android:textSize">@dimen/typography_display_2</item>
+    </style>
+
+    <style name="Typography.Display_1" parent="Font.Regular">
+        <item name="android:textSize">@dimen/typography_display_1</item>
+    </style>
+
+    <style name="Typography.Headline" parent="Font.Regular">
+        <item name="android:textSize">@dimen/typography_headline</item>
+    </style>
+
+    <style name="Typography.Title" parent="Font.Bold">
+        <item name="android:textSize">@dimen/typography_title</item>
+    </style>
+
+    <style name="Typography.Subheading" parent="Font.Regular">
+        <item name="android:textSize">@dimen/typography_subheading</item>
+    </style>
+
+    <style name="Typography.Body_2" parent="Font.Bold">
+        <item name="android:textSize">@dimen/typography_body_2</item>
+    </style>
+
+    <style name="Typography.Body_1" parent="Font.Regular">
+        <item name="android:textSize">@dimen/typography_body_1</item>
+    </style>
+
+    <style name="Typography.Caption" parent="Font.Regular">
+        <item name="android:textSize">@dimen/typography_caption</item>
+    </style>
+
+    <style name="Typography.Button" parent="Font.Bold">
+        <item name="android:textSize">@dimen/typography_button</item>
+    </style>
+    <!-- **** -->
+
+
+    <!-- Typography Dark -->
+    <style name="Typography.Dark" />
+
+    <style name="Typography.Display_4.Dark" parent="Typography.Display_4">
+        <item name="android:textColor">@color/typography_white_54</item>
+    </style>
+
+    <style name="Typography.Display_3.Dark" parent="Typography.Display_3">
+        <item name="android:textColor">@color/typography_white_54</item>
+    </style>
+
+    <style name="Typography.Display_2.Dark" parent="Typography.Display_2">
+        <item name="android:textColor">@color/typography_white_54</item>
+    </style>
+
+    <style name="Typography.Display_1.Dark" parent="Typography.Display_1">
+        <item name="android:textColor">@color/typography_white_54</item>
+    </style>
+
+    <style name="Typography.Headline.Dark" parent="Typography.Headline">
+        <item name="android:textColor">@color/typography_white_87</item>
+    </style>
+
+    <style name="Typography.Title.Dark" parent="Typography.Title">
+        <item name="android:textColor">@color/typography_white_87</item>
+    </style>
+
+    <style name="Typography.Subheading.Dark" parent="Typography.Subheading">
+        <item name="android:textColor">@color/typography_white_87</item>
+    </style>
+
+    <style name="Typography.Body_2.Dark" parent="Typography.Body_2">
+        <item name="android:textColor">@color/typography_white_87</item>
+    </style>
+
+    <style name="Typography.Body_1.Dark" parent="Typography.Body_1">
+        <item name="android:textColor">@color/typography_white_87</item>
+    </style>
+
+    <style name="Typography.Caption.Dark" parent="Typography.Caption">
+        <item name="android:textColor">@color/typography_white_54</item>
+    </style>
+
+    <style name="Typography.Button.Dark" parent="Typography.Button">
+        <item name="android:textColor">@color/typography_white_87</item>
+    </style>
+    <!-- **** -->
+
+
+    <!-- Typography Dark -->
+    <style name="Typography.Light" />
+
+    <style name="Typography.Display_4.Light" parent="Typography.Display_4">
+        <item name="android:textColor">@color/typography_black_54</item>
+    </style>
+
+    <style name="Typography.Display_3.Light" parent="Typography.Display_3">
+        <item name="android:textColor">@color/typography_black_54</item>
+    </style>
+
+    <style name="Typography.Display_2.Light" parent="Typography.Display_2">
+        <item name="android:textColor">@color/typography_black_54</item>
+    </style>
+
+    <style name="Typography.Display_1.Light" parent="Typography.Display_1">
+        <item name="android:textColor">@color/typography_black_54</item>
+    </style>
+
+    <style name="Typography.Headline.Light" parent="Typography.Headline">
+        <item name="android:textColor">@color/typography_black_87</item>
+    </style>
+
+    <style name="Typography.Title.Light" parent="Typography.Title">
+        <item name="android:textColor">@color/typography_black_87</item>
+    </style>
+
+    <style name="Typography.Subheading.Light" parent="Typography.Subheading">
+        <item name="android:textColor">@color/typography_black_87</item>
+    </style>
+
+    <style name="Typography.Body_2.Light" parent="Typography.Body_2">
+        <item name="android:textColor">@color/typography_black_87</item>
+    </style>
+
+    <style name="Typography.Body_1.Light" parent="Typography.Body_1">
+        <item name="android:textColor">@color/typography_black_87</item>
+    </style>
+
+    <style name="Typography.Caption.Light" parent="Typography.Caption">
+        <item name="android:textColor">@color/typography_black_54</item>
+    </style>
+
+    <style name="Typography.Button.Light" parent="Typography.Button">
+        <item name="android:textColor">@color/typography_black_87</item>
+    </style>
+    <!-- **** -->
+
+    <!-- Button -->
+    <style name="Button" parent="Widget.AppCompat.Button" />
+
+    <style name="Button.Colored" parent="Widget.AppCompat.Button.Colored" />
+
+    <style name="Button.Portfolio" parent="Button.Colored">
+        <item name="android:layout_marginTop">@dimen/margin</item>
+        <item name="colorAccent">#FFA726</item>
+        <item name="android:layout_width">@dimen/portfolio_button_width</item>
+    </style>
+
+    <style name="Button.Portfolio.Highlight" parent="Button.Portfolio">
+        <item name="colorAccent">@color/colorAccentHighlight</item>
+        <item name="android:layout_width">@dimen/portfolio_button_width</item>
+    </style>
+
+</resources>

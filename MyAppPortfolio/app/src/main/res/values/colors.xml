@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Pallete -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccentHighlight">#C51162</color>
+    <!-- **** -->
+
+    <!-- Typography -->
+    <!-- Black scale -->
+    <color name="typography_black">#000000</color>
+    <color name="typography_black_87">#DE000000</color>
+    <color name="typography_black_54">#8A000000</color>
+    <!-- White scale -->
+    <color name="typography_white">#FFFFFF</color>
+    <color name="typography_white_87">#DEFFFFFF</color>
+    <color name="typography_white_54">#8AFFFFFF</color>
+
+    <!-- **** -->
+
+</resources>

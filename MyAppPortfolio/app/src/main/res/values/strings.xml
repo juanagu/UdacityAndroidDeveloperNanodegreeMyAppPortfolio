@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyAppPortfolio</string>
+    <!-- Portfolio -->
+    <string name="portfolio.title">My Nanodegree Apps!</string>
+    <string name="portfolio.launch_button">This button will launch %s!</string>
+    <!-- Generals -->
+    <string name="spotify_streamer">Spotify streamer</string>
+    <string name="scores_app">Scores app</string>
+    <string name="library_app">Library app</string>
+    <string name="build_it_bigger">Build it bigger</string>
+    <string name="bacon_reader">Bacon reader</string>
+    <string name="capstone_my_own_app">Capstone: my own app</string>
+</resources>
